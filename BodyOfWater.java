@@ -10,6 +10,10 @@ public class BodyOfWater {
         avgDepth = a;
         isSalt = s;
     }
+    public BodyOfWater(String n, int a) {
+        name = n;
+        avgDepth = a;
+    }
     public void printState() {
         System.out.println("name: "+ name);
         System.out.println("Widest Diameter: "+ widestDiameter);
